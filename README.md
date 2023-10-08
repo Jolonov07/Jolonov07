@@ -1,4 +1,14 @@
-### Hi there 👋
+### Hello, world! 👋
+let success = false;
+
+while (!success) {
+  tryAgain();
+  
+  if (successConditionMet()) {
+    success = true;
+    goToNextLevel();
+  }
+}
 
 <!--
 **Jolonov07/Jolonov07** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
